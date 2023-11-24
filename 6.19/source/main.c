@@ -10,16 +10,16 @@ int randDice();
 
 int main(void)
 {
-	int list[SIDE * DICE +1] = { 0 };  // 修改多一個位置存儲 0 的次數
+	int list[SIDE * DICE +1] = { 0 };
 	int dice[DICE + 1] = { 0 };
 	int sum;
 
 	srand(time(NULL));
 
-	for (unsigned int i = 0; i <= TIMES; i++)  // 修改 <= TIMES
+	for (unsigned int i = 0; i <= TIMES; i++)
 	{
 		sum = 0;
-		for (int j = 1; j <= DICE; j++)  // 修改 DICE
+		for (int j = 1; j <= DICE; j++)
 		{
 			dice[j] = randDice();
 			sum = sum + dice[j];
@@ -27,9 +27,9 @@ int main(void)
 		list[sum]++;
 	}
 
-	for (int j = 1; j <= SIDE; j++)  // 修改 SIDE
+	for (int j = 1; j <= SIDE; j++) 
 	{
-		if (j == 1)  // 修改標頭的格式
+		if (j == 1)
 		{
 			printf("   ");
 			for (int i = 1; i <= SIDE; i++)
