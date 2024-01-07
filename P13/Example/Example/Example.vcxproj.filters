@@ -16,10 +16,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\main.c">
+    <ClCompile Include="..\..\source\User_defined.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\source\User_defined.c">
+    <ClCompile Include="..\..\source\main.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

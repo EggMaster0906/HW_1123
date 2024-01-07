@@ -130,7 +130,7 @@
     <ClInclude Include="..\..\include\User_defined.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\main.c" />
+    <ClCompile Include="..\..\source\main.cpp" />
     <ClCompile Include="..\..\source\User_defined.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
